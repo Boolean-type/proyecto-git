@@ -1,0 +1,14 @@
+Ejercicio 2
+
+Explica qué hace cada parte del siguiente código.
+
+def bienvenida(nombre):
+	print(f"Hola, {nombre}, bienvenido al curso de python!")
+
+if __name__=="__main__":
+	usuario = input("Introduce tu nombre: ")
+	bienvenida(usuario)
+
+El código lo que hace es definir y ejecutar la función bienvenida que consiste en sacar un print
+con la variable nombre que se le pasa como parámetro (esa variable la introduce el usuario a través
+de input).

@@ -1,0 +1,8 @@
+¿Qué imprimirá por terminal este código?
+if __name__ == "__main__":
+	print(“introduce una palabra o frase”)
+	text = input()
+	print(len(text))
+
+Imprimirá el número de caracteres que introduzca el usuario por teclado.
+Ya que la función len, lo que hace es contar el argumento que se le pase.
